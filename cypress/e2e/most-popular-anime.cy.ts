@@ -1,7 +1,6 @@
-describe('empty spec', () => {
-  it('passes', () => {
-    cy.visit('/')
-    cy.contains('h1', 'Most Popular Anime')
-    
-  })
-})
+describe('Most Popular Anime', () => {
+  it('should display a most popular anime section', () => {
+    cy.visit('/');
+    cy.contains('h2', 'Most Popular Anime');
+  });
+});
