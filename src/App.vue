@@ -4,7 +4,6 @@
 
 <template>
   <RouterView />
-  <h1>Most Popular Anime</h1>
 </template>
 
 <style scoped>
